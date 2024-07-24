@@ -9,11 +9,6 @@ This project implements a simplified version of a music streaming service in Jav
   - [Redis](#redis)
 - [Running the Project](#running-the-project)
 - [Testing](#testing)
-- [Design](#design)
-  - [Entities](#entities)
-  - [Service Layer](#service-layer)
-  - [Controller Layer](#controller-layer)
-  - [Caching](#caching)
 
 ## Setup
 
