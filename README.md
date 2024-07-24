@@ -104,28 +104,6 @@ spring.redis.host=localhost
 spring.redis.port=6379
 ```
 
-## Project Design
-
-### Entities
-
-1. **Song**: Represents a song with static details.
-2. **SongStats**: Represents dynamic details of a song like play count, user rating, social media shares, geographic popularity, and last played timestamp.
-
-### Service Layer
-
-- **SongService**: Provides methods to get the top 100 trending songs. Utilizes caching to improve performance.
-
-### Controller Layer
-
-- **SongController**: Exposes the endpoint `/api/trending-songs` to retrieve the top 100 trending songs.
-
-### Caching
-
-The project uses Redis for caching the results of the top 100 trending songs to improve performance. The cache is updated periodically to reflect the latest data.
-
-### Database
-
-The project uses H2 InMemory database (can be replaced with a traditional SQL DB with config changes), for faster testing purposes.
 
 ## Conclusion
 
