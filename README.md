@@ -56,8 +56,8 @@ docker ps
 1. **Clone the Repository**:
 
     ```sh
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/Ran-8/ConverzAI
+    cd ConverzAI
     ```
 
 2. **Build the Project**:
