@@ -123,6 +123,9 @@ spring.redis.port=6379
 
 The project uses Redis for caching the results of the top 100 trending songs to improve performance. The cache is updated periodically to reflect the latest data.
 
+### Database
+
+The project uses H2 InMemory database (can be replaced with a traditional SQL DB with config changes), for faster testing purposes.
 
 ## Conclusion
 
